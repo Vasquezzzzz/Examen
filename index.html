@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Ingresar</title>
+<link rel="icon" type="i/png" href="i.png">
+<script>
+function comprobarClave(){
+    clave1 = document.f1.clave1.value
+    clave2 = document.f1.clave2.value
+    if (clave1 == "JPBJ" && clave2 == "JAVE"){
+       alert("Las claves son correctas :)\n Bienvenido");
+        var href =  "inicio.html";
+        window.location=href;
+         }
+    else{
+       alert("Las claves son incorrectas :(\nIntentelo nuevamente.");
+        var href =  "index.html";
+        window.location=href;
+    };
+}
+</script>
+<link rel="stylesheet" href="s.css">
+</head>
+<body>
+  <form action="" name="f1">
+  <section class="form-login">
+  <h1>Ingresar</h1>
+  <br>
+  <h4><center>Escribe ambas claves, una en cada campo, y pulsa el botón. Y el programa te dirá si las dos son correctas.</center></h4><br>
+    <input class="controls" type="password" name="clave1" value="" placeholder="Primera  Clave">
+    <input class="controls" type="password" name="clave2" value="" placeholder="Segunda  Clave">
+    <input class="btn"      type="button" value="Acceder" onClick="comprobarClave()">
+  </section>
+</form>
+</body>
+</html>

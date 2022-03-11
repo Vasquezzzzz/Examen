@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Codystar:300&display=swap");
+body{
+  background-size: cover;
+  background-image: url(sk.gif);
+  background-position: center;
+  font-family: arial;
+}
+@font-face {
+  font-family: Fuente;
+  src:url(fuente.ttf);
+}
+h1,h3{
+  font-family: fuente;
+
+}
+.menu{
+  list-style: none;
+  padding: 0;
+  background: transparent;
+  width: 90%;
+  max-width: 1000px;
+  magin: auto;
+  font-family: fuente;
+
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+.menu li a:hover{
+  background: #FF0000	;
+}
+.neons {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.neons h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    color: #fff;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  }
+  to {
+    color: gray;
+    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
+}
+.tab{
+  font-family: fuente;
+
+}
+h2,li{
+  font-family: fuente;
+}
+.formu{
+  width: 400px;
+  background: transparent;
+  padding: 30px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 4px;
+  font-family: fuente;
+}
+.frm{
+   width: 100%;
+   background: transparent;
+   padding: 10px;
+   border-radius: 4px;
+   margin-bottom: 16px;
+   border: 1px solid #8B0908
+}
+.btnn{
+  align-items: center;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #FF0000;
+  height: 40px;
+  font-size: 18;
+  border-radius: 15px;
+  border-bottom: 1px solid #8B0908;
+  padding: 11px 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+}
